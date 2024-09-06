@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2009-2022 the original author or authors.
+       Copyright 2009-2024 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.mybatis</groupId>
+    <groupId>android.org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>36</version>
     <relativePath />
@@ -147,7 +147,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>ognl</groupId>
+      <groupId>android.ognl</groupId>
       <artifactId>ognl</artifactId>
       <version>3.3.4</version>
       <scope>compile</scope>
@@ -359,7 +359,7 @@
               <artifactSet>
                 <includes>
                   <include>org.mybatis:mybatis</include>
-                  <include>ognl:ognl</include>
+                  <include>android.ognl:ognl</include>
                   <include>org.javassist:javassist</include>
                 </includes>
               </artifactSet>

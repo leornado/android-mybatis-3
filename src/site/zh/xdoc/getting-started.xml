@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2009-2022 the original author or authors.
+       Copyright 2009-2024 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -36,7 +36,7 @@
       <p>如果使用 Maven 来构建项目，则需将下面的依赖代码置于 pom.xml 文件中：</p>
         <source><![CDATA[
 <dependency>
-  <groupId>org.mybatis</groupId>
+  <groupId>android.org.mybatis</groupId>
   <artifactId>mybatis</artifactId>
   <version>x.x.x</version>
 </dependency>]]></source>
